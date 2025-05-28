@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SugarInc </title>
+    
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🍫&lt;/text&gt;&lt;/svg&gt;"> -->
+
+    <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-0{bottom:0px}.left-0{left:0px}.right-0{right:0px}.top-0{top:0px}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.order-last{order:9999}.col-span-1{grid-column:span 1 / span 1}.col-span-2{grid-column:span 2 / span 2}.col-span-3{grid-column:span 3 / span 3}.mx-auto{margin-left:auto;margin-right:auto}.my-4{margin-top:1rem;margin-bottom:1rem}.-mb-5{margin-bottom:-1.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-5{margin-left:1.25rem}.mt-0{margin-top:0px}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-2{margin-top:0.5rem}.mt-5{margin-top:1.25rem}.mt-7{margin-top:1.75rem}.box-border{box-sizing:border-box}.box-content{box-sizing:content-box}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-10{height:2.5rem}.h-11{height:2.75rem}.h-12{height:3rem}.h-3{height:0.75rem}.h-4{height:1rem}.h-6{height:1.5rem}.h-96{height:24rem}.h-auto{height:auto}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-16{width:4rem}.w-2\/3{width:66.666667%}.w-20{width:5rem}.w-3{width:0.75rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-64{width:16rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-7xl{max-width:80rem}.max-w-screen-2xl{max-width:1536px}.max-w-screen-md{max-width:768px}.flex-none{flex:none}.flex-shrink-0{flex-shrink:0}.translate-x-8{--tw-translate-x:2rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-4{--tw-translate-y:-1rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-0{--tw-translate-y:-0px;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-0{--tw-rotate:0deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-45{--tw-rotate:45deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-rotate-45{--tw-rotate:-45deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;user-select:none}.appearance-none{-webkit-appearance:none;appearance:none}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-col-reverse{flex-direction:column-reverse}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-10{gap:2.5rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.375rem * var(--tw-space-x-reverse));margin-left:calc(0.375rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-b-none{border-bottom-right-radius:0px;border-bottom-left-radius:0px}.border{border-width:1px}.border-2{border-width:2px}.border-t{border-top-width:1px}.border-green-400{--tw-border-opacity:1;border-color:rgb(74 222 128 / var(--tw-border-opacity, 1))}.border-indigo-500{--tw-border-opacity:1;border-color:rgb(99 102 241 / var(--tw-border-opacity, 1))}.border-red-500{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}.border-transparent{border-color:transparent}.border-yellow-400{--tw-border-opacity:1;border-color:rgb(250 204 21 / var(--tw-border-opacity, 1))}.border-zinc-100{--tw-border-opacity:1;border-color:rgb(244 244 245 / var(--tw-border-opacity, 1))}.border-zinc-200{--tw-border-opacity:1;border-color:rgb(228 228 231 / var(--tw-border-opacity, 1))}.border-zinc-800{--tw-border-opacity:1;border-color:rgb(39 39 42 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128 / var(--tw-bg-opacity, 1))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245 / var(--tw-bg-opacity, 1))}.bg-zinc-50{--tw-bg-opacity:1;background-color:rgb(250 250 250 / var(--tw-bg-opacity, 1))}.bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42 / var(--tw-bg-opacity, 1))}.bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity, 1))}.bg-opacity-5{--tw-bg-opacity:0.05}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.bg-none{background-image:none}.from-blue-300{--tw-gradient-from:#93c5fd var(--tw-gradient-from-position);--tw-gradient-to:rgb(147 197 253 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-400{--tw-gradient-from:#60a5fa var(--tw-gradient-from-position);--tw-gradient-to:rgb(96 165 250 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-green-300{--tw-gradient-from:#86efac var(--tw-gradient-from-position);--tw-gradient-to:rgb(134 239 172 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-green-400{--tw-gradient-from:#4ade80 var(--tw-gradient-from-position);--tw-gradient-to:rgb(74 222 128 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-300{--tw-gradient-from:#a5b4fc var(--tw-gradient-from-position);--tw-gradient-to:rgb(165 180 252 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-indigo-400{--tw-gradient-from:#818cf8 var(--tw-gradient-from-position);--tw-gradient-to:rgb(129 140 248 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-300{--tw-gradient-from:#f9a8d4 var(--tw-gradient-from-position);--tw-gradient-to:rgb(249 168 212 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-pink-400{--tw-gradient-from:#f472b6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(244 114 182 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 255 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-yellow-300{--tw-gradient-from:#fde047 var(--tw-gradient-from-position);--tw-gradient-to:rgb(253 224 71 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-yellow-400{--tw-gradient-from:#facc15 var(--tw-gradient-from-position);--tw-gradient-to:rgb(250 204 21 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-blue-300{--tw-gradient-to:rgb(147 197 253 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #93c5fd var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-blue-400{--tw-gradient-to:rgb(96 165 250 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #60a5fa var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-purple-300{--tw-gradient-to:rgb(216 180 254 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #d8b4fe var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgb(192 132 252 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #c084fc var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-red-300{--tw-gradient-to:rgb(252 165 165 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #fca5a5 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-red-400{--tw-gradient-to:rgb(248 113 113 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #f87171 var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-blue-300{--tw-gradient-to:#93c5fd var(--tw-gradient-to-position)}.to-blue-400{--tw-gradient-to:#60a5fa var(--tw-gradient-to-position)}.to-green-300{--tw-gradient-to:#86efac var(--tw-gradient-to-position)}.to-green-400{--tw-gradient-to:#4ade80 var(--tw-gradient-to-position)}.to-indigo-300{--tw-gradient-to:#a5b4fc var(--tw-gradient-to-position)}.to-indigo-400{--tw-gradient-to:#818cf8 var(--tw-gradient-to-position)}.to-pink-300{--tw-gradient-to:#f9a8d4 var(--tw-gradient-to-position)}.to-pink-400{--tw-gradient-to:#f472b6 var(--tw-gradient-to-position)}.to-yellow-400{--tw-gradient-to:#facc15 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.fill-current{fill:currentColor}.object-cover{object-fit:cover}.p-0\.5{padding:0.125rem}.p-5{padding:1.25rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-12{padding-left:3rem;padding-right:3rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-7{padding-top:1.75rem;padding-bottom:1.75rem}.pb-10{padding-bottom:2.5rem}.pb-24{padding-bottom:6rem}.pb-32{padding-bottom:8rem}.pb-5{padding-bottom:1.25rem}.pl-16{padding-left:4rem}.pr-16{padding-right:4rem}.pt-0{padding-top:0px}.pt-10{padding-top:2.5rem}.pt-24{padding-top:6rem}.text-left{text-align:left}.text-center{text-align:center}.font-sans{font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-6{line-height:1.5rem}.leading-none{line-height:1}.leading-normal{line-height:1.5}.tracking-normal{letter-spacing:0em}.tracking-tight{letter-spacing:-0.025em}.tracking-tighter{letter-spacing:-0.05em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-blue-50{--tw-text-opacity:1;color:rgb(239 246 255 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-900{--tw-text-opacity:1;color:rgb(20 83 45 / var(--tw-text-opacity, 1))}.text-red-50{--tw-text-opacity:1;color:rgb(254 242 242 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-zinc-100{--tw-text-opacity:1;color:rgb(244 244 245 / var(--tw-text-opacity, 1))}.text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231 / var(--tw-text-opacity, 1))}.text-zinc-300{--tw-text-opacity:1;color:rgb(212 212 216 / var(--tw-text-opacity, 1))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170 / var(--tw-text-opacity, 1))}.text-zinc-500{--tw-text-opacity:1;color:rgb(113 113 122 / var(--tw-text-opacity, 1))}.text-zinc-600{--tw-text-opacity:1;color:rgb(82 82 91 / var(--tw-text-opacity, 1))}.text-zinc-700{--tw-text-opacity:1;color:rgb(63 63 70 / var(--tw-text-opacity, 1))}.text-zinc-900{--tw-text-opacity:1;color:rgb(24 24 27 / var(--tw-text-opacity, 1))}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-100{opacity:1}.opacity-90{opacity:0.9}.opacity-0{opacity:0}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-100{transition-duration:100ms}.duration-150{transition-duration:150ms}.duration-200{transition-duration:200ms}.duration-300{transition-duration:300ms}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.ease-out{transition-timing-function:cubic-bezier(0, 0, 0.2, 1)}.hover\:bg-zinc-800:hover{--tw-bg-opacity:1;background-color:rgb(39 39 42 / var(--tw-bg-opacity, 1))}.hover\:bg-zinc-900:hover{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity, 1))}.hover\:text-green-500:hover{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.hover\:text-zinc-500:hover{--tw-text-opacity:1;color:rgb(113 113 122 / var(--tw-text-opacity, 1))}.hover\:text-zinc-700:hover{--tw-text-opacity:1;color:rgb(63 63 70 / var(--tw-text-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-zinc-900:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(24 24 27 / var(--tw-ring-opacity, 1))}.focus\:ring-offset-2:focus{--tw-ring-offset-width:2px}@media (min-width: 640px){.sm\:ml-5{margin-left:1.25rem}.sm\:ml-8{margin-left:2rem}.sm\:mt-0{margin-top:0px}.sm\:max-w-lg{max-width:32rem}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.sm\:py-12{padding-top:3rem;padding-bottom:3rem}.sm\:text-center{text-align:center}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-6xl{font-size:3.75rem;line-height:1}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 768px){.md\:col-span-1{grid-column:span 1 / span 1}.md\:mb-0{margin-bottom:0px}.md\:mb-10{margin-bottom:2.5rem}.md\:mb-16{margin-bottom:4rem}.md\:mb-2{margin-bottom:0.5rem}.md\:block{display:block}.md\:h-14{height:3.5rem}.md\:w-14{width:3.5rem}.md\:w-24{width:6rem}.md\:w-5\/12{width:41.666667%}.md\:w-7\/12{width:58.333333%}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:items-start{align-items:flex-start}.md\:items-center{align-items:center}.md\:justify-center{justify-content:center}.md\:gap-12{gap:3rem}.md\:gap-5{gap:1.25rem}.md\:px-16{padding-left:4rem;padding-right:4rem}.md\:pl-12{padding-left:3rem}.md\:text-left{text-align:left}.md\:text-center{text-align:center}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:order-first{order:-9999}.lg\:col-span-2{grid-column:span 2 / span 2}.lg\:mx-0{margin-left:0px;margin-right:0px}.lg\:mb-16{margin-bottom:4rem}.lg\:mt-6{margin-top:1.5rem}.lg\:w-1\/2{width:50%}.lg\:w-1\/3{width:33.333333%}.lg\:w-2\/3{width:66.666667%}.lg\:w-20{width:5rem}.lg\:w-auto{width:auto}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:flex-row{flex-direction:row}.lg\:items-center{align-items:center}.lg\:justify-end{justify-content:flex-end}.lg\:justify-center{justify-content:center}.lg\:gap-20{gap:5rem}.lg\:rounded-xl{border-radius:0.75rem}.lg\:px-0{padding-left:0px;padding-right:0px}.lg\:py-0{padding-top:0px;padding-bottom:0px}.lg\:py-16{padding-top:4rem;padding-bottom:4rem}.lg\:pb-0{padding-bottom:0px}.lg\:pl-14{padding-left:3.5rem}.lg\:pl-8{padding-left:2rem}.lg\:pr-20{padding-right:5rem}.lg\:pr-4{padding-right:1rem}.lg\:text-center{text-align:center}.lg\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1280px){.xl\:w-32{width:8rem}.xl\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.xl\:px-8{padding-left:2rem;padding-right:2rem}.xl\:py-5{padding-top:1.25rem;padding-bottom:1.25rem}.xl\:pl-0{padding-left:0px}.xl\:pl-14{padding-left:3.5rem}.xl\:pl-24{padding-left:6rem}.xl\:pr-6{padding-right:1.5rem}}</style>    <link rel="stylesheet" href="">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="w-full px-8 text-zinc-700 bg-white">
+    <div class="flex flex-col flex-wrap items-center justify-between py-6 mx-auto md:flex-row max-w-7xl">
+        <div class="relative flex flex-col md:flex-row">
+            <a href="#_" class="flex items-center mb-5 font-medium text-zinc-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="153" height="30" viewBox="0 0 153 30" fill="none">
+<path d="M65.8379 0H78.0001C81.3585 0 84.0811 2.79822 84.0811 6.25V18.75C84.0811 22.2018 81.3585 25 78.0001 25H71.919V18.75H78.0001V6.25H65.8379V0Z" fill="#DD4F2F"></path>
+<path d="M36.478 16.3053C36.478 16.7382 36.4006 17.2072 36.2458 17.7123C36.0911 18.2094 35.8386 18.6744 35.4883 19.1073C35.1462 19.5322 34.6942 19.889 34.1322 20.1776C33.5783 20.4662 32.9023 20.6105 32.104 20.6105H26.3739V17.6401H32.104C32.5357 17.6401 32.8697 17.5119 33.1059 17.2553C33.3421 16.9907 33.4602 16.666 33.4602 16.2812C33.4602 15.8723 33.3258 15.5516 33.057 15.3191C32.7964 15.0866 32.4787 14.9704 32.104 14.9704H26.3739C25.9422 14.9704 25.6083 15.1027 25.3721 15.3673C25.1359 15.6238 25.0178 15.9445 25.0178 16.3293V20.6947C25.0178 21.1116 25.1481 21.4363 25.4087 21.6688C25.6775 21.9013 26.0074 22.0176 26.3984 22.0176H32.104V25H26.3739C25.9341 25 25.4576 24.9238 24.9445 24.7715C24.4395 24.6192 23.967 24.3747 23.5272 24.0379C23.0955 23.6932 22.7331 23.2482 22.4398 22.7031C22.1466 22.1499 22 21.4804 22 20.6947V16.3053C22 15.8723 22.0774 15.4073 22.2321 14.9103C22.3869 14.4052 22.6353 13.9402 22.9774 13.5153C23.3277 13.0823 23.7797 12.7216 24.3336 12.4329C24.8956 12.1443 25.5757 12 26.3739 12H32.104C32.5439 12 33.0163 12.0762 33.5213 12.2285C34.0344 12.3808 34.5068 12.6294 34.9385 12.9741C35.3784 13.3108 35.7449 13.7558 36.0381 14.309C36.3314 14.8541 36.478 15.5196 36.478 16.3053Z" fill="black"></path>
+<path d="M50.174 15.1267H43.0267C42.595 15.1267 42.2692 15.235 42.0492 15.4514C41.8293 15.6599 41.7194 15.9685 41.7194 16.3774V25H38.5428V16.3774C38.5428 15.8403 38.612 15.3592 38.7505 14.9343C38.8889 14.5094 39.0722 14.1366 39.3003 13.8159C39.5365 13.4872 39.8053 13.2106 40.1066 12.9861C40.408 12.7536 40.7216 12.5652 41.0474 12.4209C41.3813 12.2766 41.7153 12.1724 42.0492 12.1082C42.3913 12.0361 42.709 12 43.0022 12H50.174V15.1267Z" fill="black"></path>
+<path d="M66.5946 20.6105C66.5946 21.1477 66.5254 21.6327 66.3869 22.0657C66.2484 22.4906 66.0652 22.8674 65.8371 23.1961C65.609 23.5168 65.3443 23.7934 65.0429 24.0259C64.7416 24.2504 64.4239 24.4348 64.09 24.5791C63.7642 24.7234 63.4302 24.8316 63.0881 24.9038C62.7542 24.9679 62.4365 25 62.1351 25H56.405C55.9652 25 55.4846 24.9238 54.9633 24.7715C54.4421 24.6192 53.9574 24.3706 53.5094 24.0259C53.0696 23.6731 52.699 23.2202 52.3976 22.667C52.1044 22.1058 51.9578 21.4203 51.9578 20.6105V16.3774C51.9578 15.5757 52.1044 14.8982 52.3976 14.3451C52.699 13.7838 53.0696 13.3309 53.5094 12.9861C53.9574 12.6334 54.4421 12.3808 54.9633 12.2285C55.4846 12.0762 55.9652 12 56.405 12H62.1351C62.9496 12 63.642 12.1443 64.2121 12.4329C64.7823 12.7216 65.2425 13.0863 65.5927 13.5273C65.943 13.9602 66.1955 14.4332 66.3502 14.9463C66.5131 15.4595 66.5946 15.9365 66.5946 16.3774V20.6105ZM63.418 16.4015C63.418 15.9685 63.308 15.6479 63.0881 15.4394C62.8682 15.231 62.5505 15.1267 62.1351 15.1267H56.4295C56.0059 15.1267 55.6842 15.235 55.4643 15.4514C55.2444 15.6599 55.1344 15.9685 55.1344 16.3774V20.6105C55.1344 21.0194 55.2444 21.3321 55.4643 21.5486C55.6842 21.765 56.0059 21.8733 56.4295 21.8733H62.1351C62.5668 21.8733 62.8886 21.765 63.1003 21.5486C63.3121 21.3321 63.418 21.0194 63.418 20.6105V16.4015Z" fill="black"></path>
+<path d="M90.3273 8.81016H87.1216V6H90.3273V8.81016ZM90.3273 24.3916H87.1216V11.4649H90.3273V24.3916Z" fill="black"></path>
+<path d="M107.91 25.6353C107.91 26.1694 107.84 26.6477 107.7 27.0703C107.56 27.5007 107.375 27.8754 107.145 28.1943C106.915 28.5212 106.648 28.7962 106.344 29.0194C106.04 29.2506 105.719 29.438 105.382 29.5815C105.053 29.725 104.716 29.8286 104.371 29.8924C104.034 29.9641 103.713 30 103.409 30H97.6266V26.8909H103.409C103.845 26.8909 104.17 26.7833 104.383 26.568C104.597 26.3528 104.704 26.0419 104.704 25.6353V15.8176C104.704 15.4111 104.597 15.1041 104.383 14.8969C104.17 14.6816 103.845 14.574 103.409 14.574H97.6266C97.2321 14.574 96.9197 14.6936 96.6895 14.9327C96.4594 15.1639 96.3443 15.4589 96.3443 15.8176V20.0269C96.3443 20.4335 96.4553 20.7444 96.6772 20.9596C96.8992 21.1749 97.2238 21.2825 97.6513 21.2825H103.409V24.3916H97.6266C97.3225 24.3916 97.0019 24.3597 96.6649 24.296C96.3279 24.2242 95.9909 24.1166 95.6538 23.9731C95.325 23.8296 95.0086 23.6462 94.7044 23.423C94.4003 23.1918 94.1332 22.9168 93.903 22.5979C93.6728 22.2711 93.4879 21.8964 93.3482 21.4738C93.2084 21.0433 93.1385 20.561 93.1385 20.0269V15.8176C93.1385 15.5227 93.1714 15.2118 93.2372 14.8849C93.3112 14.558 93.4221 14.2352 93.5701 13.9163C93.7181 13.5894 93.9071 13.2785 94.1373 12.9836C94.3756 12.6886 94.6592 12.4295 94.988 12.2063C95.325 11.9831 95.7114 11.8037 96.147 11.6682C96.5827 11.5326 97.0759 11.4649 97.6266 11.4649H103.409C103.713 11.4649 104.034 11.5007 104.371 11.5725C104.716 11.6363 105.053 11.7399 105.382 11.8834C105.719 12.0269 106.04 12.2143 106.344 12.4454C106.648 12.6687 106.915 12.9437 107.145 13.2706C107.375 13.5894 107.56 13.9601 107.7 14.3827C107.84 14.8052 107.91 15.2835 107.91 15.8176V25.6353Z" fill="black"></path>
+<path d="M114.099 8.81016H110.894V6H114.099V8.81016ZM114.099 24.3916H110.894V11.4649H114.099V24.3916Z" fill="black"></path>
+<path d="M129.302 14.574H123.704V24.3916H120.461V14.574H116.294V11.4649H120.461V7.24365H123.704V11.4649H129.302V14.574Z" fill="black"></path>
+<path d="M144.406 20.1106C144.406 20.5411 144.328 21.0075 144.172 21.5097C144.016 22.004 143.761 22.4664 143.407 22.8969C143.062 23.3194 142.606 23.6741 142.039 23.9611C141.48 24.2481 140.798 24.3916 139.992 24.3916H134.209C133.765 24.3916 133.285 24.3159 132.767 24.1644C132.257 24.013 131.78 23.7698 131.336 23.435C130.901 23.0922 130.535 22.6497 130.239 22.1076C129.943 21.5575 129.795 20.8919 129.795 20.1106C129.795 19.6801 129.873 19.2138 130.029 18.7115C130.186 18.2093 130.436 17.7469 130.782 17.3244C131.135 16.8939 131.591 16.5351 132.15 16.2481C132.717 15.9611 133.404 15.8176 134.209 15.8176H139.992V18.7833H134.209C133.774 18.7833 133.437 18.9148 133.198 19.1779C132.96 19.433 132.841 19.7519 132.841 20.1345C132.841 20.5411 132.976 20.86 133.248 21.0912C133.527 21.3144 133.856 21.426 134.234 21.426H139.992C140.428 21.426 140.765 21.2985 141.003 21.0433C141.241 20.7882 141.361 20.4694 141.361 20.0867V15.7459C141.361 15.3393 141.229 15.0164 140.966 14.7773C140.711 14.5381 140.387 14.4185 139.992 14.4185H132.952V11.4649H139.992C140.436 11.4649 140.913 11.5406 141.422 11.6921C141.94 11.8435 142.417 12.0907 142.852 12.4335C143.296 12.7683 143.666 13.2108 143.962 13.7608C144.258 14.3029 144.406 14.9646 144.406 15.7459V20.1106Z" fill="black"></path>
+<path d="M153 24.3916H151.57C151.109 24.3916 150.616 24.3159 150.09 24.1644C149.572 24.013 149.087 23.7658 148.635 23.423C148.183 23.0722 147.809 22.6218 147.513 22.0717C147.217 21.5137 147.069 20.8321 147.069 20.0269V6H150.275V20.0269C150.275 20.4096 150.398 20.7165 150.645 20.9477C150.892 21.1709 151.2 21.2825 151.57 21.2825H153V24.3916Z" fill="black"></path>
+<path d="M0.0174092 6.24943V0H14.7022C16.9982 1.01787e-05 20.6646 2.7484 18.6786 6.91074L9.62397 18.7487H19.2568V19.836V25L4.57223 25C2.16015 25 -1.49077 21.9099 0.645121 18.125L9.65046 6.2513L0.0174092 6.24943Z" fill="#DD4F2F"></path>
+</svg>
+            </a>
+        </div>
+
+        <div class="inline-flex flex-col items-center sm:flex-row sm:ml-5 lg:justify-end">
+            <nav class="flex flex-wrap items-center space-x-4 text-xs font-semibold tracking-wide uppercase sm:space-x-6">
+                <a href="index.html" class="text-zinc-500 hover:text-zinc-500">Home</a>
+                <a href="about_Us.html" class="text-zinc-400 hover:text-zinc-500">About Us</a>
+                <a href="blog.html" class="text-zinc-400 hover:text-zinc-500">Blog</a>
+                <a href="contact_Us.html" class="text-zinc-400 hover:text-zinc-500">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+</section>
+<section class="relative z-20 w-full pt-24 pb-32 bg-white">
+    <div class="px-8 mx-auto max-w-7xl xl:px-8">
+        <div class="flex flex-col md:flex-row">
+            <div class="flex flex-col items-center justify-center w-full mb-16 md:items-start md:mb-0 md:w-5/12 lg:w-1/3">
+                <h1 class="mb-2 text-5xl font-black text-center text-black md:text-3xl lg:text-5xl md:text-left leading-[64px]">Building thoughtful <span style="color: #081B33;">DIGITAL TOOLS</span></h1>
+                <p class="mb-12 text-xl tracking-wide text-center text-zinc-700 md:text-left">Cutting-edge tools and platforms developed with today’s business challenges in mind.</p>
+                <!-- <a href="#_" class="relative inline-block w-64 px-5 py-3 mt-2 text-center text-white bg-zinc-900 rounded-full" data-rounded="rounded-full" data-primary="gray-900">Get Started</a> -->
+                
+            </div>
+
+            <div class="relative md:w-7/12 lg:w-2/3 md:pl-12 xl:pl-0">
+                <!-- <img src="https://cdn.devdojo.com/images/december2020/hand-3d.png" class="absolute bottom-0 left-0 z-10 w-16 h-auto ml-5 -mb-5 transform rotate-45 lg:w-20 xl:w-32"> -->
+                <!--  -->
+                    <img src="/Assets/Main Hero image.jpg" class="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="py-20 bg-white">
+  <div class="px-12 pb-5 mx-auto max-w-screen-2xl md:px-16">
+
+    <!-- Heading -->
+    <div class="mb-10 md:mb-16 text-center">
+      <!-- <p class="text-sm font-semibold tracking-widest text-zinc-500 uppercase mb-2">Product Suite</p> -->
+      <h2 class="mb-4 text-3xl font-bold text-black lg:text-5xl">
+        Our Way of <span class="text-[#081B33]" style="color: #DD4F2F;">Thinking</span>
+      </h2>
+      <p class="max-w-screen-md mx-auto text-zinc-600 md:text-lg">
+        Replace complexity with purpose-built platforms that simplify how modern teams operate.
+      </p>
+    </div>
+
+    <!-- Feature Cards Grid -->
+    <div class="grid gap-8 sm:grid-cols-2 xl:grid-cols-3 md:gap-12">
+
+      <!-- Card 1 -->
+      <div class="flex gap-4 md:gap-5 bg-gradient-to-br from-yellow-400 via-red-400 to-pink-400 rounded-2xl p-0.5">
+        <div class="flex gap-4 p-5 bg-white md:gap-5 rounded-2xl">
+          <div class="flex items-center justify-center w-12 h-12 text-black rounded-full md:w-14 md:h-14 bg-gradient-to-br from-yellow-300 via-red-300 to-pink-300">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <path d="M16.7588 16.8801L22.9387 23.0602M4.93982 5.05889L11.1198 11.239M16.7948 11.2021L22.9748 5.02203M4.98053 23.0153L11.1604 16.8351M22.8343 14.0554H26.7259M1.27148 14.0554H5.16317M13.9977 5.16463V1.27283M13.9977 26.7284V22.8365M11.1921 16.8084H16.849V11.1515H11.1921V16.8084Z" stroke="#0C0A08" stroke-width="1.591" stroke-linecap="round"/>
+        </svg>
+          </div>
+          <div>
+            <h3 class="mb-2 text-lg font-semibold text-black md:text-xl">Intelligence</h3>
+            <p class="text-sm text-zinc-600">Put powerful intelligent platforms to work for you.</p>
+          </div>
+          <div class="ml-auto">
+            <span class="text-xl text-zinc-400">→</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="flex gap-4 md:gap-5 bg-gradient-to-br from-green-400 via-blue-400 to-indigo-400 rounded-2xl p-0.5">
+        <div class="flex gap-4 p-5 bg-white md:gap-5 rounded-2xl">
+          <div class="flex items-center justify-center w-12 h-12 text-black rounded-full md:w-14 md:h-14 bg-gradient-to-br from-green-300 via-blue-300 to-indigo-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+<path d="M5.83333 25.6667C5.19167 25.6667 4.64237 25.4383 4.18542 24.9813C3.72847 24.5243 3.5 23.975 3.5 23.3334V9.33335C3.5 8.69169 3.72847 8.14239 4.18542 7.68544C4.64237 7.22849 5.19167 7.00002 5.83333 7.00002H8.16667C8.16667 5.38614 8.73542 4.01044 9.87292 2.87294C11.0104 1.73544 12.3861 1.16669 14 1.16669C15.6138 1.16669 16.9896 1.73544 18.1271 2.87294C19.2646 4.01044 19.8333 5.38614 19.8333 7.00002H22.1667C22.8083 7.00002 23.3576 7.22849 23.8146 7.68544C24.2716 8.14239 24.5 8.69169 24.5 9.33335V23.3334C24.5 23.975 24.2716 24.5243 23.8146 24.9813C23.3576 25.4383 22.8083 25.6667 22.1667 25.6667H5.83333ZM5.83333 23.3334H22.1667V9.33335H5.83333V23.3334ZM14 16.3334C15.6138 16.3334 16.9896 15.7646 18.1271 14.6271C19.2646 13.4896 19.8333 12.1139 19.8333 10.5H17.5C17.5 11.4722 17.1597 12.2987 16.4792 12.9792C15.7986 13.6597 14.9722 14 14 14C13.0278 14 12.2013 13.6597 11.5208 12.9792C10.8403 12.2987 10.5 11.4722 10.5 10.5H8.16667C8.16667 12.1139 8.73542 13.4896 9.87292 14.6271C11.0104 15.7646 12.3861 16.3334 14 16.3334ZM10.5 7.00002H17.5C17.5 6.0278 17.1597 5.20141 16.4792 4.52085C15.7986 3.8403 14.9722 3.50002 14 3.50002C13.0278 3.50002 12.2013 3.8403 11.5208 4.52085C10.8403 5.20141 10.5 6.0278 10.5 7.00002Z" fill="#0C0A08"/>
+</svg>
+          </div>
+          <div>
+            <h3 class="mb-2 text-lg font-semibold text-black md:text-xl">Procurement</h3>
+            <p class="text-sm text-zinc-600">Intake to swift action, without the usual friction.</p>
+          </div>
+          <div class="ml-auto">
+            <span class="text-xl text-zinc-400">→</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flex gap-4 md:gap-5 bg-gradient-to-br from-blue-400 via-purple-400 to-pink-400 rounded-2xl p-0.5">
+        <div class="flex gap-4 p-5 bg-white md:gap-5 rounded-2xl">
+          <div class="flex items-center justify-center w-12 h-12 text-black rounded-full md:w-14 md:h-14 bg-gradient-to-br from-blue-300 via-purple-300 to-pink-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.8337 22.6456C24.188 20.511 25.6667 17.4282 25.6667 14C25.6667 7.55667 20.4433 2.33333 14 2.33333H12.8333V0.0479194C13.218 0.0161832 13.6071 0 14 0C21.732 0 28 6.26801 28 14C28 18.0484 26.2816 21.6956 23.5343 24.2517L21.8337 22.6456ZM19.9249 24.0523C18.1883 25.0781 16.1629 25.6667 14 25.6667C7.55667 25.6667 2.33333 20.4433 2.33333 14C2.33333 8.77609 5.76671 4.35408 10.5 2.86743V0.441061C4.46171 1.99521 0 7.47656 0 14C0 21.732 6.26801 28 14 28C16.8352 28 19.4736 27.1572 21.6784 25.7084L19.9249 24.0523Z" fill="#0C0A08"/>
+<path d="M14 0.583313V14L23.9167 22.75" stroke="#0C0A08" stroke-width="2.33333"/>
+</svg>
+          </div>
+          <div>
+            <h3 class="mb-2 text-lg font-semibold text-black md:text-xl">Management</h3>
+            <p class="text-sm text-zinc-600">Processes that seamlessly skip the manual workflows.</p>
+          </div>
+          <div class="ml-auto">
+            <span class="text-xl text-zinc-400">→</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="flex gap-4 md:gap-5 bg-gradient-to-br from-indigo-400 via-blue-400 to-green-400 rounded-2xl p-0.5">
+        <div class="flex gap-4 p-5 bg-white md:gap-5 rounded-2xl">
+          <div class="flex items-center justify-center w-12 h-12 text-black rounded-full md:w-14 md:h-14 bg-gradient-to-br from-indigo-300 via-blue-300 to-green-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+<path d="M14.0002 24.7917C19.9602 24.7917 24.7918 19.9601 24.7918 14C24.7918 8.03997 19.9602 3.20837 14.0002 3.20837C8.04009 3.20837 3.2085 8.03997 3.2085 14C3.2085 19.9601 8.04009 24.7917 14.0002 24.7917Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.5003 12.5417C11.3057 12.5417 11.9587 11.8887 11.9587 11.0833C11.9587 10.2779 11.3057 9.625 10.5003 9.625C9.69491 9.625 9.04199 10.2779 9.04199 11.0833C9.04199 11.8887 9.69491 12.5417 10.5003 12.5417Z" fill="black"/>
+<path d="M17.5003 12.5417C18.3057 12.5417 18.9587 11.8887 18.9587 11.0833C18.9587 10.2779 18.3057 9.625 17.5003 9.625C16.6949 9.625 16.042 10.2779 16.042 11.0833C16.042 11.8887 16.6949 12.5417 17.5003 12.5417Z" fill="black"/>
+<path d="M18.0417 16.625C17.632 17.3344 17.0429 17.9234 16.3335 18.333C15.6242 18.7425 14.8194 18.9581 14.0003 18.9581C13.1812 18.9581 12.3765 18.7425 11.6671 18.333C10.9577 17.9234 10.3686 17.3344 9.95898 16.625" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+          </div>
+          <div>
+            <h3 class="mb-2 text-lg font-semibold text-black md:text-xl">Solutions</h3>
+            <p class="text-sm text-zinc-600">Eliminate potential problems before they come up.</p>
+          </div>
+          <div class="ml-auto">
+            <span class="text-xl text-zinc-400">→</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="flex gap-4 md:gap-5 bg-gradient-to-br from-pink-400 via-purple-400 to-blue-400 rounded-2xl p-0.5">
+        <div class="flex gap-4 p-5 bg-white md:gap-5 rounded-2xl">
+          <div class="flex items-center justify-center w-12 h-12 text-black rounded-full md:w-14 md:h-14 bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+<g clip-path="url(#clip0_543_829)">
+<path d="M19.4063 19.2547C20.4213 19.1672 21.2065 18.2747 21.1563 17.2084C21.1015 16.1421 20.2277 15.2857 19.1625 15.2857H19.0913C18.5627 15.3046 18.0632 15.5326 17.7027 15.9196C17.3422 16.3066 17.1501 16.8209 17.1687 17.3496C17.2037 17.9084 17.4323 18.3634 17.745 18.6947C16.5223 21.0724 14.6872 22.8201 11.9058 24.2889C10.0357 25.2666 8.06048 25.6352 6.13782 25.3739C4.53015 25.1464 3.27248 24.4289 2.50248 23.2751C1.34982 21.5262 1.24482 19.6397 2.20498 17.7521C2.90498 16.3871 3.95382 15.3919 4.65382 14.9019C4.44269 14.3159 4.27883 13.7139 4.16382 13.1017C-1.01268 16.8094 -0.48535 21.8774 1.08732 24.2726C2.25865 26.0202 4.65382 27.1379 7.27532 27.1379C7.97532 27.1379 8.71032 27.0866 9.42548 26.9116C13.972 26.0377 17.4148 23.3112 19.39 19.2909L19.4063 19.2547ZM25.6457 14.8844C22.939 11.7017 18.9513 9.95405 14.406 9.95405H13.811C13.5158 9.30772 12.8345 8.90522 12.0633 8.90522H12.0108C10.9107 8.90522 10.0532 9.85022 10.0893 10.9504C10.1243 11.9981 11.0157 12.8731 12.082 12.8731H12.1683C12.5465 12.8584 12.9126 12.7353 13.2227 12.5183C13.5328 12.3012 13.7739 11.9996 13.9172 11.6492H14.5647C17.2585 11.6492 19.8088 12.4356 22.134 13.9732C23.9155 15.1457 25.193 16.6834 25.9105 18.5197C26.5382 20.0224 26.5043 21.4912 25.858 22.7162C24.8605 24.6377 23.1817 25.6527 20.9627 25.6527C19.5638 25.6527 18.2012 25.2152 17.5012 24.9014C17.0812 25.2491 16.3812 25.8266 15.8748 26.1766C17.4125 26.8742 18.9688 27.2767 20.4715 27.2767C23.8805 27.2767 26.4145 25.3552 27.377 23.5014C28.4247 21.4037 28.3383 17.8734 25.662 14.8494L25.6457 14.8844ZM7.57165 19.8824C7.60665 20.9312 8.49682 21.8051 9.56432 21.8051H9.63432C9.89693 21.7988 10.1556 21.7401 10.3953 21.6325C10.6349 21.5249 10.8506 21.3705 11.0297 21.1783C11.2088 20.9862 11.3477 20.7602 11.4383 20.5136C11.5288 20.267 11.5692 20.0048 11.557 19.7424C11.557 18.6924 10.6482 17.8209 9.58182 17.8209H9.51182C9.44182 17.8209 9.33682 17.8209 9.24815 17.8547C7.79798 15.4071 7.18548 12.7832 7.41415 9.95405C7.55415 7.82139 8.25415 5.96756 9.51065 4.42989C10.5607 3.11856 12.5358 2.46989 13.8822 2.43722C17.6575 2.36606 19.2313 7.07006 19.3527 8.94022L21.1003 9.46522C20.6978 3.72989 17.1337 0.723389 13.7247 0.723389C10.5233 0.723389 7.57165 3.04856 6.38165 6.45756C4.75648 11.0017 5.82282 15.3732 7.81665 18.8697C7.64165 19.0972 7.53665 19.4986 7.57165 19.8824Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_543_829">
+<rect width="28" height="28" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+          </div>
+          <div>
+            <h3 class="mb-2 text-lg font-semibold text-black md:text-xl">Real-Time Info</h3>
+            <p class="text-sm text-zinc-600">Always up to date. Always accurate and on point.</p>
+          </div>
+          <div class="ml-auto">
+            <span class="text-xl text-zinc-400">→</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="flex gap-4 md:gap-5 bg-gradient-to-br from-yellow-400 via-red-400 to-pink-400 rounded-2xl p-0.5">
+        <div class="flex gap-4 p-5 bg-white md:gap-5 rounded-2xl">
+          <div class="flex items-center justify-center w-12 h-12 text-black rounded-full md:w-14 md:h-14 bg-gradient-to-br from-yellow-300 via-red-300 to-pink-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+<path d="M6.12467 9.04171C7.73551 9.04171 9.04134 7.73587 9.04134 6.12504C9.04134 4.51421 7.73551 3.20837 6.12467 3.20837C4.51384 3.20837 3.20801 4.51421 3.20801 6.12504C3.20801 7.73587 4.51384 9.04171 6.12467 9.04171Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.9997 9.04171C15.6105 9.04171 16.9163 7.73587 16.9163 6.12504C16.9163 4.51421 15.6105 3.20837 13.9997 3.20837C12.3888 3.20837 11.083 4.51421 11.083 6.12504C11.083 7.73587 12.3888 9.04171 13.9997 9.04171Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.9997 16.9167C15.6105 16.9167 16.9163 15.6109 16.9163 14C16.9163 12.3892 15.6105 11.0834 13.9997 11.0834C12.3888 11.0834 11.083 12.3892 11.083 14C11.083 15.6109 12.3888 16.9167 13.9997 16.9167Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.9997 24.7917C15.6105 24.7917 16.9163 23.4859 16.9163 21.875C16.9163 20.2642 15.6105 18.9584 13.9997 18.9584C12.3888 18.9584 11.083 20.2642 11.083 21.875C11.083 23.4859 12.3888 24.7917 13.9997 24.7917Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.8747 24.7917C23.4855 24.7917 24.7913 23.4859 24.7913 21.875C24.7913 20.2642 23.4855 18.9584 21.8747 18.9584C20.2638 18.9584 18.958 20.2642 18.958 21.875C18.958 23.4859 20.2638 24.7917 21.8747 24.7917Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.12467 11.0834C6.89822 11.0834 7.64009 11.3907 8.18707 11.9376C8.73405 12.4846 9.04134 13.2265 9.04134 14V21.875C9.04134 22.6486 8.73405 23.3905 8.18707 23.9374C7.64009 24.4844 6.89822 24.7917 6.12467 24.7917C5.35113 24.7917 4.60926 24.4844 4.06228 23.9374C3.5153 23.3905 3.20801 22.6486 3.20801 21.875V14C3.20801 13.2265 3.5153 12.4846 4.06228 11.9376C4.60926 11.3907 5.35113 11.0834 6.12467 11.0834ZM21.8747 3.20837C22.6482 3.20837 23.3901 3.51566 23.9371 4.06265C24.4841 4.60963 24.7913 5.35149 24.7913 6.12504V14C24.7913 14.7736 24.4841 15.5155 23.9371 16.0624C23.3901 16.6094 22.6482 16.9167 21.8747 16.9167C21.1011 16.9167 20.3593 16.6094 19.8123 16.0624C19.2653 15.5155 18.958 14.7736 18.958 14V6.12504C18.958 5.35149 19.2653 4.60963 19.8123 4.06265C20.3593 3.51566 21.1011 3.20837 21.8747 3.20837Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+          </div>
+          <div>
+            <h3 class="mb-2 text-lg font-semibold text-black md:text-xl">UX Quality</h3>
+            <p class="text-sm text-zinc-600">Confidence engineered into each and every click.</p>
+          </div>
+          <div class="ml-auto">
+            <span class="text-xl text-zinc-400">→</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="w-full py-20 bg-zinc-50">
+  <div class="px-10 mx-auto max-w-7xl">
+
+    <!-- Section Header -->
+    <div class="px-10 mb-8 space-y-5 lg:px-0 lg:text-center lg:mb-16">
+      <p class="text-lg text-zinc-600 w-full sm:text-xl">You’re in good hands</p>
+      <h2 class="text-4xl font-bold sm:text-5xl leading-tight">
+        Ready to Scale your<br>
+        <span>
+          <span style="color: #DD4F2F;">IDEAS</span> to <span style="color: #DD4F2F;">NEW HEIGHTS</span>
+        </span>
+      </h2>
+    </div>
+
+    <!-- Card 1 -->
+    <div class="flex flex-col lg:flex-row lg:items-stretch gap-6">
+      <div class="flex flex-col justify-center bg-white py-10 px-8 lg:w-[35%] h-[280px]">
+        <h3 class="text-2xl font-semibold sm:text-4xl">Precision-first Development</h3>
+        <p class="text-lg text-zinc-600 mt-4">
+          Every solution is engineered with performance, stability, and long-term scalability in mind. We prioritize systems that run smoothly from day one.
+        </p>
+      </div>
+      <div class="bg-zinc-100 lg:w-[65%] h-[280px] overflow-hidden rounded-xl">
+        <img src="./Assets/people_development.jpg" alt="" class="w-full h-full object-cover rounded-xl">
+      </div>
+    </div>
+
+    <!-- Spacer -->
+    <div style="height: 20px;"></div>
+
+    <!-- Card 2 -->
+    <div class="flex flex-col lg:flex-row lg:items-stretch gap-6">
+      <div class="bg-zinc-100 lg:w-[35%] h-[280px] overflow-hidden rounded-xl order-last lg:order-first">
+        <img src="./Assets/Curiosity.jpg" alt="" class="w-full h-full object-cover rounded-xl">
+      </div>
+      <div class="flex flex-col justify-center bg-white py-10 px-8 lg:w-[65%] h-[280px]">
+        <h3 class="text-2xl font-semibold sm:text-4xl">Culture of Relentless Curiosity</h3>
+        <p class="text-lg text-zinc-600 mt-4">
+          We challenge assumptions, experiment boldly, and refine until we find what truly works. Bold experimentation guides our creative process.
+        </p>
+      </div>
+    </div>
+
+    <!-- Spacer -->
+    <div style="height: 20px;"></div>
+
+    <!-- Card 3 -->
+    <div class="flex flex-col lg:flex-row lg:items-stretch gap-6">
+      <div class="flex flex-col justify-center bg-white py-10 px-8 lg:w-[35%] h-[280px]">
+        <h3 class="text-2xl font-semibold sm:text-4xl">Driven by Real-world Standards</h3>
+        <p class="text-lg text-zinc-600 mt-4">
+          Our internal frameworks align with global benchmarks for technology, design, and user trust. They are carefully aligned with global benchmarks across technology, design, and usability.
+        </p>
+      </div>
+      <div class="bg-zinc-100 lg:w-[65%] h-[280px] overflow-hidden rounded-xl">
+        <img src="./Assets/realworld.jpg" alt="" class="w-full h-full object-cover rounded-xl">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="h-auto bg-white relative overflow-hidden">
+    <!-- Top Mesh BG -->
+    <div class="absolute top-0 opacity-90 overflow-hidden w-full mx-auto">
+        <img src="https://cdn.devdojo.com/images/june2022/mesh.png">
+    </div>
+    <div class="bg-gradient-to-t from-white z-10 absolute inset-0"></div>
+    <div class="flex relative py-10 flex-col z-20 px-10 justify-center items-center tracking-normal leading-6 sm:text-center text-white box-border">
+        <h2 class="mb-8 font-sans text-zinc-900 text-5xl sm:text-6xl font-semibold tracking-tighter leading-none sm:max-w-lg">Our Approach to Building What’s Next</h2>
+        <p class="text-2xl font-normal text-zinc-500 tracking-tight"> Bold thinking. Clear execution. Measurable impact.</p>
+        <p class="text-2xl font-normal text-zinc-500 tracking-tight">Send us a word, what's on your mind we will make it digital!</p>
+    </div>
+</section>
+
+<section class="py-18 bg-white">
+  <div class="flex flex-col items-center justify-center px-4 mx-auto max-w-4xl text-center">
+
+    <!-- Input and button container -->
+    <div class="flex flex-col items-center w-full max-w-md">
+        <input
+        type="email"
+        id="userEmail"
+        placeholder="Enter your email"
+        required
+        style="width: 50vw;"
+        class="px-5 py-3 border border-zinc-300 rounded-lg text-zinc-800 text-base focus:outline-none focus:ring-2 focus:ring-green-400"
+        />
+
+        <!-- Spacer -->
+    <div style="height: 20px;"></div>
+
+      <button
+        onclick="sendMail()"
+        class="mt-[60px] px-5 py-3 text-base font-semibold rounded-full"
+        style="width: 25vw; min-width: 100px; background-color: #081B33; color: #ffffff;"
+        >
+        Send Message
+        </button>
+    </div>
+  </div>
+
+  <script>
+    function sendMail() {
+      const userEmail = document.getElementById('userEmail').value.trim();
+      if (!userEmail) {
+        alert("Please enter your email.");
+        return;
+      }
+
+      const subject = "Let's Connect!";
+      const body = `Hey ZeroDigital! I want to have a chat with you.\n\nMy Email: ${userEmail}`;
+
+      const mailtoLink = `mailto:office@zerodigital.co?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.open(mailtoLink, '_blank');
+    }
+  </script>
+</section>
+
+ <!-- Spacer -->
+    <div style="height: 40px;"></div>
+
+<!-- Footer Top with inline background color -->
+<section class="w-full text-white text-sm" style="background-color: #081B33;">
+  <div class="px-8 py-12 mx-auto max-w-7xl">
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Information -->
+      <div>
+    <div class="flex flex-col flex-wrap items-center justify-between py-6 mx-auto md:flex-row max-w-7xl">
+        <a href="index.html" class="flex items-center mb-5 font-medium text-zinc-900 lg:w-auto lg:items-center lg:justify-center md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="160" height="50" viewBox="0 0 240 50" fill="none">
+                    <path d="M100 0.5H120C125.523 0.5 130 4.97715 130 10.5V30.5C130 36.0228 125.523 40.5 120 40.5H110V30.5H120V10.5H100V0.5Z" fill="#DD4F2F"/>
+                    <path d="M57.5507 26.4547C57.5507 27.154 57.4275 27.9117 57.1811 28.7276C56.9347 29.5305 56.5327 30.2817 55.9751 30.981C55.4304 31.6674 54.7107 32.2438 53.8159 32.71C52.9341 33.1762 51.8577 33.4093 50.5868 33.4093H41.4638V28.611H50.5868C51.2742 28.611 51.8058 28.4038 52.1819 27.9894C52.558 27.562 52.746 27.0375 52.746 26.4158C52.746 25.7553 52.5321 25.2373 52.1041 24.8617C51.6891 24.4861 51.1834 24.2983 50.5868 24.2983H41.4638C40.7765 24.2983 40.2448 24.512 39.8688 24.9394C39.4927 25.3538 39.3047 25.8719 39.3047 26.4935V33.5453C39.3047 34.2188 39.5121 34.7433 39.9271 35.1189C40.3551 35.4944 40.8803 35.6822 41.5027 35.6822H50.5868V40.5H41.4638C40.7636 40.5 40.0049 40.377 39.1879 40.1309C38.3839 39.8848 37.6318 39.4898 36.9315 38.9459C36.2442 38.389 35.6671 37.6702 35.2003 36.7895C34.7334 35.8959 34.5 34.8145 34.5 33.5453V26.4547C34.5 25.7553 34.6232 25.0042 34.8696 24.2012C35.116 23.3853 35.5115 22.6341 36.0562 21.9477C36.6138 21.2484 37.3335 20.6656 38.2153 20.1994C39.1101 19.7331 40.193 19.5 41.4638 19.5H50.5868C51.2871 19.5 52.0393 19.623 52.8433 19.8691C53.6603 20.1152 54.4124 20.5167 55.0997 21.0735C55.8 21.6175 56.3836 22.3363 56.8504 23.2299C57.3173 24.1105 57.5507 25.1855 57.5507 26.4547Z" fill="white"/>
+                    <path d="M79.3564 24.5509H67.977C67.2897 24.5509 66.771 24.7257 66.4208 25.0754C66.0707 25.4121 65.8956 25.9107 65.8956 26.5712V40.5H60.8381V26.5712C60.8381 25.7035 60.9483 24.9265 61.1688 24.2401C61.3892 23.5537 61.681 22.9514 62.0441 22.4334C62.4202 21.9024 62.8481 21.4556 63.3279 21.093C63.8078 20.7174 64.307 20.413 64.8258 20.1799C65.3574 19.9468 65.8891 19.7784 66.4208 19.6748C66.9655 19.5583 67.4712 19.5 67.9381 19.5H79.3564V24.5509Z" fill="white"/>
+                    <path d="M105.5 33.4093C105.5 34.2771 105.39 35.0606 105.169 35.7599C104.949 36.4463 104.657 37.055 104.294 37.586C103.931 38.1041 103.509 38.5509 103.03 38.9265C102.55 39.2891 102.044 39.587 101.512 39.8201C100.994 40.0532 100.462 40.228 99.9173 40.3446C99.3856 40.4482 98.8798 40.5 98.4 40.5H89.277C88.5767 40.5 87.8116 40.377 86.9816 40.1309C86.1517 39.8848 85.3801 39.4833 84.6669 38.9265C83.9666 38.3566 83.3765 37.6249 82.8967 36.7313C82.4299 35.8247 82.1964 34.7174 82.1964 33.4093V26.5712C82.1964 25.2761 82.4299 24.1818 82.8967 23.2882C83.3765 22.3816 83.9666 21.6499 84.6669 21.093C85.3801 20.5231 86.1517 20.1152 86.9816 19.8691C87.8116 19.623 88.5767 19.5 89.277 19.5H98.4C99.6968 19.5 100.799 19.7331 101.707 20.1994C102.615 20.6656 103.347 21.2549 103.905 21.9672C104.463 22.6665 104.865 23.4306 105.111 24.2595C105.37 25.0883 105.5 25.8589 105.5 26.5712V33.4093ZM100.442 26.6101C100.442 25.9107 100.267 25.3927 99.9173 25.056C99.5671 24.7192 99.0614 24.5509 98.4 24.5509H89.3159C88.6416 24.5509 88.1293 24.7257 87.7792 25.0754C87.429 25.4121 87.254 25.9107 87.254 26.5712V33.4093C87.254 34.0698 87.429 34.5749 87.7792 34.9246C88.1293 35.2743 88.6416 35.4491 89.3159 35.4491H98.4C99.0873 35.4491 99.5995 35.2743 99.9367 34.9246C100.274 34.5749 100.442 34.0698 100.442 33.4093V26.6101Z" fill="white"/>
+                    <path d="M139.609 15.0665H134.5V10.5H139.609V15.0665ZM139.609 40.3864H134.5V19.3804H139.609V40.3864Z" fill="white"/>
+                    <path d="M167.633 42.4073C167.633 43.2753 167.522 44.0526 167.299 44.7392C167.076 45.4387 166.781 46.0476 166.415 46.5658C166.048 47.0969 165.622 47.5438 165.137 47.9066C164.653 48.2823 164.142 48.5867 163.604 48.8199C163.08 49.0531 162.543 49.2215 161.993 49.3251C161.456 49.4417 160.945 49.5 160.46 49.5H151.243V44.4477H160.46C161.155 44.4477 161.672 44.2728 162.013 43.923C162.353 43.5732 162.524 43.068 162.524 42.4073V26.4537C162.524 25.793 162.353 25.2942 162.013 24.9574C161.672 24.6076 161.155 24.4327 160.46 24.4327H151.243C150.615 24.4327 150.117 24.6271 149.75 25.0157C149.383 25.3914 149.2 25.8707 149.2 26.4537V33.2937C149.2 33.9544 149.376 34.4596 149.73 34.8094C150.084 35.1592 150.601 35.3341 151.283 35.3341H160.46V40.3864H151.243C150.759 40.3864 150.248 40.3346 149.711 40.2309C149.173 40.1144 148.636 39.9395 148.099 39.7063C147.575 39.4731 147.071 39.1751 146.586 38.8124C146.101 38.4367 145.675 37.9898 145.309 37.4716C144.942 36.9405 144.647 36.3316 144.424 35.645C144.201 34.9454 144.09 34.1617 144.09 33.2937V26.4537C144.09 25.9743 144.143 25.4691 144.247 24.938C144.365 24.4068 144.542 23.8822 144.778 23.364C145.014 22.8328 145.315 22.3276 145.682 21.8483C146.062 21.369 146.514 20.9479 147.038 20.5852C147.575 20.2225 148.191 19.931 148.885 19.7108C149.58 19.4905 150.366 19.3804 151.243 19.3804H160.46C160.945 19.3804 161.456 19.4387 161.993 19.5553C162.543 19.6589 163.08 19.8274 163.604 20.0605C164.142 20.2937 164.653 20.5982 165.137 20.9738C165.622 21.3366 166.048 21.7835 166.415 22.3146C166.781 22.8328 167.076 23.4352 167.299 24.1218C167.522 24.8084 167.633 25.5857 167.633 26.4537V42.4073Z" fill="white"/>
+                    <path d="M177.498 15.0665H172.389V10.5H177.498V15.0665ZM177.498 40.3864H172.389V19.3804H177.498V40.3864Z" fill="white"/>
+                    <path d="M201.729 24.4327H192.807V40.3864H187.639V24.4327H180.996V19.3804H187.639V12.5209H192.807V19.3804H201.729V24.4327Z" fill="white"/>
+                    <path d="M225.803 33.4297C225.803 34.1293 225.678 34.8871 225.429 35.7033C225.18 36.5065 224.774 37.2578 224.211 37.9574C223.661 38.644 222.933 39.2205 222.029 39.6868C221.139 40.1532 220.051 40.3864 218.767 40.3864H209.551C208.843 40.3864 208.077 40.2633 207.251 40.0172C206.439 39.7711 205.679 39.3759 204.972 38.8318C204.277 38.2748 203.694 37.5558 203.223 36.6749C202.751 35.781 202.515 34.6993 202.515 33.4297C202.515 32.7302 202.64 31.9723 202.889 31.1562C203.137 30.3401 203.537 29.5887 204.087 28.9021C204.651 28.2025 205.378 27.6196 206.269 27.1532C207.173 26.6868 208.267 26.4537 209.551 26.4537H218.767V31.2728H209.551C208.856 31.2728 208.319 31.4865 207.939 31.9141C207.559 32.3286 207.369 32.8468 207.369 33.4686C207.369 34.1293 207.585 34.6475 208.018 35.0232C208.463 35.3859 208.987 35.5673 209.59 35.5673H218.767C219.462 35.5673 219.999 35.36 220.379 34.9454C220.759 34.5309 220.949 34.0127 220.949 33.3909V26.3371C220.949 25.6764 220.739 25.1517 220.32 24.7631C219.914 24.3744 219.396 24.1801 218.767 24.1801H207.546V19.3804H218.767C219.475 19.3804 220.235 19.5035 221.047 19.7496C221.872 19.9958 222.632 20.3974 223.327 20.9544C224.034 21.4985 224.624 22.2175 225.095 23.1114C225.567 23.9923 225.803 25.0675 225.803 26.3371V33.4297Z" fill="white"/>
+                    <path d="M239.5 40.3864H237.22C236.487 40.3864 235.701 40.2633 234.862 40.0172C234.037 39.7711 233.264 39.3695 232.543 38.8124C231.823 38.2424 231.227 37.5105 230.755 36.6166C230.283 35.7098 230.047 34.6021 230.047 33.2937V10.5H235.157V33.2937C235.157 33.9155 235.353 34.4143 235.746 34.79C236.14 35.1527 236.631 35.3341 237.22 35.3341H239.5V40.3864Z" fill="white"/>
+                    <path d="M0.0271216 10.4991V0.5H22.9045C26.4814 0.500016 32.1933 4.89744 29.0993 11.5572L14.9931 30.4979H30V32.2375V40.5L7.12305 40.5C3.36528 40.5 -2.32246 35.5559 1.00503 29.5L15.0344 10.5021L0.0271216 10.4991Z" fill="#DD4F2F"/>
+                    </svg>
+            </a>
+            </div>
+        <h3 class="text-lg font-semibold mb-3">Information</h3>
+        <p class="text-zinc-300 mb-4">
+          We deliver intelligent digital solutions, streamline online growth, and build lasting value through innovation, precision, and a deep understanding of evolving business needs.
+        </p>
+        <div class="flex items-center gap-6">
+  <!-- Twitter -->
+  <div class="flex items-center gap-2">
+    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+      <path fill="#DD4F2F" d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5.5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+    </svg>
+    <a href="https://x.com/ZeroDigital_dev" target="_blank" class="text-zinc-200 hover:underline">Twitter</a>
+  </div>
+
+  <!-- LinkedIn -->
+  <div class="flex items-center gap-2">
+    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+      <path fill="#DD4F2F" d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.78-1.75-1.72 0-.95.78-1.72 1.75-1.72s1.75.77 1.75 1.72c0 .94-.78 1.72-1.75 1.72zm13.5 10.28h-3v-4.8c0-1.14-.03-2.61-1.59-2.61-1.6 0-1.85 1.25-1.85 2.53v4.88h-3v-9h2.89v1.23h.04c.4-.76 1.38-1.56 2.84-1.56 3.03 0 3.59 1.99 3.59 4.58v4.75z"/>
+    </svg>
+    <a href="#" target="_blank" class="text-zinc-200 hover:underline">LinkedIn</a>
+  </div>
+</div>
+
+      </div>
+
+      <!-- Menu -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">Menu</h3>
+        <ul class="space-y-2 text-zinc-300">
+          <li><a href="index.html" class="hover:text-white">Home</a></li>
+          <li><a href="about_Us.html" class="hover:text-white">About Us</a></li>
+          <li><a href="blog.html" class="hover:text-white">Blog</a></li>
+          <li><a href="contact_Us.html" class="hover:text-white">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Get in Touch -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">Get in Touch</h3>
+        <ul class="space-y-2 text-zinc-300">
+          <li>
+            <span class="block">Email:</span>
+            <a href="mailto:office@zerodigital.co" class="text-white underline">office@zerodigital.co</a>
+          </li>
+          <div>
+  <h3 class="text-lg font-semibold text-white mb-3">Locations</h3>
+  <ul class="space-y-2">
+    <li class="flex items-center gap-2">
+      <img src="https://flagcdn.com/w40/in.png" alt="India" class="w-5 h-5 rounded-full" />
+      <span class="text-zinc-200">Hyderabad, India</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <img src="https://flagcdn.com/w40/ae.png" alt="UAE" class="w-5 h-5 rounded-full" />
+      <span class="text-zinc-200">Dubai, UAE</span>
+    </li>
+    <li class="flex items-center gap-2">
+      <img src="https://flagcdn.com/w40/au.png" alt="Australia" class="w-5 h-5 rounded-full" />
+      <span class="text-zinc-200">Melbourne, Australia</span>
+    </li>
+  </ul>
+</div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Bottom (separate section with light background) -->
+<section class="w-full bg-white text-sm text-zinc-600">
+  <div class="px-8 py-6 mx-auto max-w-7xl border-t border-zinc-200 flex flex-col md:flex-row items-center justify-between">
+    <p class="mb-4 md:mb-0">© 2025 Sugarinc Network Solutions Private Limited. All rights reserved.</p>
+    <div class="flex gap-6">
+      <a href="termsPrivacy.html" class="hover:text-black">Terms & Privacy</a>
+      <!-- <a href="#" class="hover:text-black"></a> -->
+    </div>
+  </div>
+</section>
+
+    <script src="//unpkg.com/alpinejs" defer></script>
+</body>
+</html>
